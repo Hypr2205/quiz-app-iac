@@ -62,5 +62,5 @@ variable "key_name" {
 variable "instance_name" {
   description = "EC2 Instance name for the Bastion host server"
   type        = string
-  default     = "Bastion-host-server"
+  default     = "pipeline-server"
 }
